@@ -1,0 +1,7 @@
+
+The second program runs into an infinite loop because of the printer() method, where the variable 'level' keeps on incrementing and does not stop at any condition which keeps calling the recursion infinite times.
+
+The solution to this problem would be to define an appropriate contion to jump out of the printer recursion once the tree is successfully created and printed by defining a fixed limit. However, I may bo wrong as well because I have not worked much with linkedlist so far in my career.
+
+This is the error I caught while debugging the code:
+RecursionError: maximum recursion depth exceeded while calling a Python object
